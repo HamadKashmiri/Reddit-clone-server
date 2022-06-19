@@ -1,0 +1,26 @@
+{
+  "name": "Reddit-clone-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamadKashmiri/Reddit-clone-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamadKashmiri/Reddit-clone-server/issues"
+  },
+  "homepage": "https://github.com/HamadKashmiri/Reddit-clone-server#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.7.3"
+  }
+}
