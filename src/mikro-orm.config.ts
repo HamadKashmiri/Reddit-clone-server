@@ -13,7 +13,7 @@ export default {
   type: "postgresql",
   dbName: "reddit-clone",
   user: "postgres",
-  password: "postgres",
+  password: process.env.SQL_PASSWORD,
   // true when not in production -> logs behind the scenes SQL queries etc
   debug: !__prod__,
 } as Parameters<typeof MikroORM.init>[0];
